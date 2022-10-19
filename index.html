@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Interactive rating component</title>
+  <link rel="stylesheet" href="index.css">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+<body>
+
+  <!-- Rating state start -->
+
+<main class="containerPrincipal">
+  <div class="container" id="containerEstrela">
+    <div id="estrela">
+      <img src="./images/icon-star.svg" alt="" srcset="">
+    </div>
+  </div>
+  <div class="container">
+    <h2>Como nos saimos ?</h2>
+  </div>
+  <div class="container">
+    <p>
+      Por favor, deixe-nos saber como fizemos com sua solicitação de suporte. Todos os comentários são apreciados
+      para nos ajudar a melhorar a nossa oferta!
+    </p>
+  </div>
+  <div class="container" id="containerNotas">
+    <a href="#">
+      <div class="notas" id="nota1">1</div>
+    </a> 
+    <a href="#">
+      <div class="notas" id="nota2">2</div>
+    </a>
+    <a href="#">
+      <div class="notas" id="nota3">3</div>
+    </a>
+    <a href="#">
+      <div class="notas" id="nota4">4</div>
+    </a>
+    <a href="#">
+      <div class="notas" id="nota5">5</div>
+    </a>
+  </div>
+  <div class="container">
+    <input type="button" value="SUBMIT" id="botaoSubmit">
+  </div>
+</main>
+
+          <!-- Div Oculta -->
+
+<main class="containerPrincipalOculto oculto">
+  <div class="containerOculto">
+    <img src="./images/illustration-thank-you.svg" alt="">
+  </div>
+  <div class="containerOculto" id="containerParagrafo">
+    Você selecionou de 5
+  </div>
+  <div class="containerOculto">
+    <h2>Obrigado !</h2>
+  </div>
+  <div class="containerOculto">
+      Agradecemos que você reserve um tempo para dar uma classificação. 
+      Se você precisar de mais suporte, não hesite em entrar em contato!. 
+  </div>
+</main>
+
+<footer>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Rocielio</a>.
+  </div>
+</footer>
+
+<script src="index.js"></script>
+
+</body>
+</html>
